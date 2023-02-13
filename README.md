@@ -19,17 +19,29 @@ Data Description
 The data in the GTD consists of the following variables:
 
 'iyear': The year in which the attack took place.
+
 'imonth': The month in which the attack took place.
+
 'iday': The day on which the attack took place.
+
 'latitude': The latitude of the location where the attack took place.
+
 'longitude': The longitude of the location where the attack took place.
+
 'success': Indicates whether the attack was successful (1) or unsuccessful (0).
+
 'attacktype1': The type of attack, such as bombing, armed assault, kidnapping, etc.
+
 'targtype1': The type of target, such as government, military, civilian, etc.
+
 'weaptype1': The type of weapon used in the attack.
+
 'nkill': The number of people killed in the attack.
+
 'nkillter': The number of terrorists killed in the attack.
+
 'ransom': Whether ransom was demanded in the attack.
+
 
 
 
