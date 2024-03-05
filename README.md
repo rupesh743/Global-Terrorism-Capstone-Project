@@ -1,50 +1,70 @@
-# Global-Terrorism-Capstone-Project
-The GTD(Global Terrorism Database) provides a comprehensive and systematic collection of data on terrorist events, including descriptions of each event, information on the groups responsible, and data on the targets, tactics, and outcomes.
+# Global Terrorism Analysis
 
+**Analyzing Global Terrorism from 1970 to 2017**
 
-Repository Contents
+## Table of Contents
 
-The repository contains the following files and folders:
+- [Introduction](#introduction)
+- [Project Summary](#project-summary)
+- [Problem Statement](#problem-statement)
+- [Business Objectives](#business-objectives)
+- [Libraries Used](#libraries-used)
+- [Data Loading and Exploration](#data-loading-and-exploration)
+- [Data Analysis and Visualizations](#data-analysis-and-visualizations)
+- [Insights and Conclusions](#insights-and-conclusions)
+- [Business Solutions](#business-solutions)
+- [Interview Questions](#interview-questions)
+- [How to Use](#how-to-use)
+- [Contributing](#contributing)
+- [License](#license)
 
-'Global Terrorism Data.csv': This is the main data file, containing information on all the terrorist attacks recorded in the database.
+## Introduction
 
-'README.md': This file provides an overview of the repository and its contents.
+This project utilizes the Global Terrorism Database (GTD) to analyze and visualize global terrorism incidents from 1970 to 2017. The aim is to gain insights into patterns, trends, and key factors associated with terrorist activities worldwide.
 
-'analysis': This folder contains Jupyter notebooks and python scripts used for data analysis and visualization of the GTD data.
+## Project Summary
 
+In this project, we explore the GTD, perform data analysis, and create visualizations to understand the scope, causes, and impacts of terrorism. The analysis covers various aspects such as the total number of attacks, kills, top attacking groups, and regional patterns.
 
+## Problem Statement
 
-Data Description
+The project addresses the need to comprehensively study terrorism, understand its complex factors, and develop strategies to mitigate its negative effects. It emphasizes interdisciplinary research to tackle the multifaceted nature of terrorism.
 
-The data in the GTD consists of the following variables:
+## Business Objectives
 
-'iyear': The year in which the attack took place.
+The main business objectives include ensuring the safety and security of stakeholders, minimizing the impact of terrorism-related incidents, complying with regulations, protecting the company's reputation, and contributing to a safer global environment.
 
-'imonth': The month in which the attack took place.
+## Libraries Used
 
-'iday': The day on which the attack took place.
+The project utilizes the following libraries:
+- NumPy
+- Pandas
+- Seaborn
+- Matplotlib
+- Plotly
+- Folium
 
-'latitude': The latitude of the location where the attack took place.
+## Data Loading and Exploration
 
-'longitude': The longitude of the location where the attack took place.
+The dataset is loaded from Google Drive using Google Colab. Initial exploratory data analysis includes checking for duplicates, missing values, and understanding variable distributions.
 
-'success': Indicates whether the attack was successful (1) or unsuccessful (0).
+## Data Analysis and Visualizations
 
-'attacktype1': The type of attack, such as bombing, armed assault, kidnapping, etc.
+The project includes various visualizations, such as:
+- Number of attacks and kills per year
+- Top 10 attacking groups
+- Successful and suicide attacks over the years
+- Total kills by groups
+- Casualties and targets analysis
+- Geospatial analysis with heatmaps
 
-'targtype1': The type of target, such as government, military, civilian, etc.
+## Insights and Conclusions
 
-'weaptype1': The type of weapon used in the attack.
+Key insights include:
+- Iraq suffered the highest number of terrorist attacks.
+- The year 2014 had the maximum number of attacks.
+- Baghdad was the most targeted city globally.
 
-'nkill': The number of people killed in the attack.
+## Business Solutions
 
-'nkillter': The number of terrorists killed in the attack.
-
-'ransom': Whether ransom was demanded in the attack.
-
-
-
-
-Contact
-
-For any questions or concerns, please contact the repository maintainer at [rup1993esh@gmail.com].
+To address business objectives, the project suggests strategies for risk reduction, security measures, and supply chain optimization based on the analysis.
