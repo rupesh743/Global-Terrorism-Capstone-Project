@@ -13,10 +13,7 @@
 - [Data Analysis and Visualizations](#data-analysis-and-visualizations)
 - [Insights and Conclusions](#insights-and-conclusions)
 - [Business Solutions](#business-solutions)
-- [Interview Questions](#interview-questions)
-- [How to Use](#how-to-use)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
